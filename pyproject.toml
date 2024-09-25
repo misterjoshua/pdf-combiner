@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-combiner"
+version = "0.1.0"
+description = ""
+authors = ["Josh Kellendonk <joshkellendonk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_combiner"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+pypdf2 = "^3.0.1"
+reportlab = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
