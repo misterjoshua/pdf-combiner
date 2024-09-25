@@ -9,17 +9,8 @@ You can try out the PDF Combiner here: [PDF Combiner App](https://pdf-combiner-n
 ## Features
 
 - Upload multiple PDF files and images (JPG, JPEG, PNG)
-- Reorder files before combining
 - Convert images to PDF pages
 - Download the combined PDF file
-
-## How to Use
-
-1. Visit the [PDF Combiner App](https://pdf-combiner-nenkcbnsqwrnjt8apptvuyt.streamlit.app/) in your web browser.
-2. Click on "Choose files to combine" to upload your PDF files and/or images.
-3. Drag and drop the files to reorder them as needed.
-4. Click the "Combine PDFs" button to merge the files.
-5. Once the process is complete, click "Download combined PDF" to save the result.
 
 ## Technical Details
 

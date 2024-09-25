@@ -53,7 +53,7 @@ st.markdown("""
 ## How to Use:
 
 - Drag and drop all files (PDF, JPEG, PNG) onto the box below in the order you want to combine them.
-- Click combine PDFs then click Download Combined PDF
+- Click Combine Files then click Download PDF
 
 **Note:** Images will be converted to PDF pages automatically.
 """)
@@ -69,7 +69,7 @@ if uploaded_files:
     for index, file in enumerate(uploaded_files, start=1):
         st.write(f"{index}. {file.name}")
     
-    if st.button("Combine PDFs"):
+    if st.button("Combine Files"):
         pdf_merger = PyPDF2.PdfMerger()
         
         for file in uploaded_files:
@@ -84,7 +84,7 @@ if uploaded_files:
         pdf_merger.close()
         
         st.download_button(
-            label="Download Combined PDF",
+            label="Download PDF",
             data=output_buffer.getvalue(),
             file_name="combined.pdf",
             mime="application/pdf"
