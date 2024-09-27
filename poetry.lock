@@ -432,14 +432,14 @@ files = [
 
 [[package]]
 name = "narwhals"
-version = "1.8.3"
+version = "1.8.4"
 description = "Extremely lightweight compatibility layer between dataframe libraries"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "narwhals-1.8.3-py3-none-any.whl", hash = "sha256:818bf31a24ecf74a1c757220dee004c6b261364c9127c95ba4cc5530205709a4"},
-    {file = "narwhals-1.8.3.tar.gz", hash = "sha256:416ddc72f98884e0bf4976a453f541fb395653bddce03c27b3fa52550f325cc0"},
+    {file = "narwhals-1.8.4-py3-none-any.whl", hash = "sha256:ccd1df55542d4406db3190ec9e98b181b19cd85a8a7eaf98472fb7b9a9b3b260"},
+    {file = "narwhals-1.8.4.tar.gz", hash = "sha256:d5f018895f4e8209d91726a4598c73d05fbfa4c7a4c4a6fc0fba9715dc88730e"},
 ]
 
 [package.extras]
@@ -882,14 +882,14 @@ rpds-py = ">=0.7.0"
 
 [[package]]
 name = "reportlab"
-version = "4.2.2"
+version = "4.2.4"
 description = "The Reportlab Toolkit"
 category = "main"
 optional = false
 python-versions = "<4,>=3.7"
 files = [
-    {file = "reportlab-4.2.2-py3-none-any.whl", hash = "sha256:927616931637e2f13e2ee3b3b6316d7a07803170e258621cff7d138bde17fbb5"},
-    {file = "reportlab-4.2.2.tar.gz", hash = "sha256:765eecbdd68491c56947e29c38b8b69b834ee5dbbdd2fb7409f08ebdebf04428"},
+    {file = "reportlab-4.2.4-py3-none-any.whl", hash = "sha256:6e4d86647b8bfd772f475a58f9b0dcba4b340b1969f0db36333089f6ca9ab362"},
+    {file = "reportlab-4.2.4.tar.gz", hash = "sha256:a00b57292e156a7bda84edf31d60c25578153076c8fb96331d0c59eddda052c8"},
 ]
 
 [package.dependencies]
